@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman 1</title>
+</head>
+<body>
+    <h2>Halaman 1</h2>
+    <h4>Mendaftar</h4>
+    <form>
+        <!-- for dalam label harus sama dengan id -->
+        <p>type="text"</p>
+        <label for="Namalengkap">Nama Lengkap</label>
+        <br>
+        <input type="text"id="Namalengkap">
+
+        <p>type="password"</p>
+        <label for="sandi">Kata Sandi</label>
+        <br>
+        <input type="password" id="sandi">
+
+        
+
+        <p>type="radio"</p>
+        <!-- jadikan dia satu grup dengan cara membuat title name -->
+        <input type="radio" id="gender" name="PilihGender"><label for="gender">Pria</label>
+        <input type="radio" id="gender" name="PilihGender"><label for="gender">Wanita</label>
+
+
+        <p>type="checkbox"</p>
+        <input type="checkbox" id="memasak"><label for="memasak">Memasak</label>
+        <input type="checkbox" id="bermain"><label for="bermain">Bermain</label>
+        <input type="checkbox" id="berenang"><label for="berenang">Berenang</label>
+            <br>
+        <button>Submit</button>
+        <button>Reset</button>
+        <p>type="reset"</p>
+        <input type="reset">
+        <br>
+        <!-- Combo Box -->
+        <select name="" id="">
+            <option value="">Kucing</option>
+            <option value="">Anjing</option>
+            <option value="">Marmut</option>
+
+        </select>
+
+    </form>
+
+    <p>Klik <a href="../User/Halaman2.html">disini</a> untuk ke halaman ke 2</p>
+    <img src="../Gambar/PHP-logo.svg.png" alt="Gambar PHP" width="100" id="Gambarphp">
+    <br><br>
+    <table border="1">
+        <tr>
+            <td>1,1</td>
+            <td>1,2</td>
+            <td>1,3</td>
+            <td>1,4</td>
+        </tr>
+        <tr>
+            <td>2,1</td>
+            <td rowspan="2" colspan="2">2,2</td>
+            <td>2,4</td>
+        </tr>
+        <tr>
+            <td>3,1</td>
+            <td>3,4</td>
+        </tr>
+        <tr>
+            <td>4,1</td>
+            <td>4,2</td>
+            <td>4,3</td>
+            <td>4,4</td>
+        </tr>
+
+    </table>
+</body>
+</html>
